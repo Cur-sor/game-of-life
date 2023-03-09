@@ -5,7 +5,10 @@ I've never used Ruby before, and I've spent no more than few hours/day in the pa
 
 ## Run
 
-Just for test open a console and type:
+if, like me, you are not familiar with ruby, the first thing to do is to download libraries (gems). 
+So please type :
+`bundle install`
+Then just for test open a console and type:
 `ruby Main.rb`
 It will use a file in the *data_example* directory.
 
