@@ -1,0 +1,12 @@
+{
+ "filepath" : "matrix2.txt",
+ "minimumX" : 4,
+ "minimumY" : 4,
+ "alive" : "*",
+ "dead" : ".",
+ "firstLine" : "^Generation (\\d+):$",
+ "secondLine" : "(\\d+) (\\d+)",
+ "maxNumberOfEvolutionCycle" : 30,
+ "refreshScreenInSeconds" : 0.2,
+ "waitBeforeStartInSeconds": 2
+}
