@@ -9,6 +9,7 @@ class  Metadata
         @generation = generation
         @height = height
         @width = width
+        validateState()
     end
 
     def validateState()

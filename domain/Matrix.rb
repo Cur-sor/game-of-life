@@ -85,17 +85,17 @@ class Matrix
     def getNextGeneration ()
         exit = []
         ylen = matrix.length-1
-        # puts "yl=" + ylen.to_s
+         
         (0..ylen).each do |y|
             newline = []
             xlen = matrix[y].length-1
-            # puts "xl=" + xlen.to_s
+             
             (0..xlen).each do |x|
-                # puts "x=" + x.to_s + " y = " + y.to_s
+                 
                 neighbors = getNeighbors(y,x)
                 deads = neighbors.count(dead)                
                 alives = neighbors.count(alive)
-                # puts "alives " + alives.to_s
+              
                 newline << cellDestiny(matrix[y][x],deads,alives)               
             end
             exit << newline
